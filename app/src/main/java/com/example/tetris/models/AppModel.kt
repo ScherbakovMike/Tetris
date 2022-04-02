@@ -208,7 +208,7 @@ class AppModel {
 
     fun endGame() {
         score = 0
-        currentState = AppModel.Statuses.OVER
+        currentState = Statuses.OVER
     }
 
     private fun resetModel() {
