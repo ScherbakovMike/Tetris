@@ -82,4 +82,5 @@ public class Block {
         return color.byteValue;
     }
 
+    public int getFrameNumber() { return frameNumber; }
 }
